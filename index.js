@@ -15,7 +15,7 @@ fetch('data.json')
             div.id = item.category.toLowerCase();
             // Set the innerHTML of the div to the HTML string below
             div.innerHTML = `
-                <img src="${item.icon}" alt="${item.category}" class="traits-img">
+                <img src="${item.icon}" alt="" class="traits-img">
                 <p class="trait">${item.category}</p>
                 <p class="out-of-hundred"><span class="score">${item.score}</span> / 100</p>
             `;
